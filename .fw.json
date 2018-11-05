@@ -1,0 +1,103 @@
+{
+  "projects": {
+    "fw": {
+      "name": "fw",
+      "git": "git@github.com:brocode/fw.git",
+      "after_clone": null,
+      "after_workon": null,
+      "override_path": null,
+      "tags": [
+        "git"
+      ],
+      "bare": null
+    },
+    "gofl": {
+      "name": "gofl",
+      "git": "git@github.com:franke1276/gofl.git",
+      "after_clone": null,
+      "after_workon": null,
+      "override_path": null,
+      "tags": [
+        "git"
+      ],
+      "bare": null
+    },
+    "localconfig": {
+      "name": "localconfig",
+      "git": "git@github.com:franke1276/localconfig.git",
+      "after_clone": null,
+      "after_workon": null,
+      "override_path": null,
+      "tags": [
+        "git"
+      ],
+      "bare": null
+    },
+    "lwebservr": {
+      "name": "lwebservr",
+      "git": "git@github.com:franke1276/lwebservr.git",
+      "after_clone": null,
+      "after_workon": null,
+      "override_path": null,
+      "tags": [
+        "git"
+      ],
+      "bare": null
+    },
+    "typographus.de": {
+      "name": "typographus.de",
+      "git": "git@github.com:typographus/typographus.de.git",
+      "after_clone": null,
+      "after_workon": null,
+      "override_path": "/Users/franke/workspace/typographus/typographus.de",
+      "tags": [
+        "git"
+      ],
+      "bare": null
+    },
+    "wasm-game-of-life": {
+      "name": "wasm-game-of-life",
+      "git": "git@github.com:franke1276/wasm-game-of-life.git",
+      "after_clone": null,
+      "after_workon": null,
+      "override_path": null,
+      "tags": [
+        "git"
+      ],
+      "bare": null
+    }
+  },
+  "settings": {
+    "workspace": "~/workspace",
+    "shell": [
+      "/usr/bin/zsh",
+      "-c"
+    ],
+    "default_after_workon": null,
+    "default_after_clone": null,
+    "default_tags": [
+      "git"
+    ],
+    "tags": {
+      "git": {
+        "after_clone": null,
+        "after_workon": "git remote update --prune",
+        "priority": 0,
+        "workspace": null
+      },
+      "js": {
+        "after_clone": null,
+        "after_workon": "source ~/.nvm/nvm.sh",
+        "priority": null,
+        "workspace": null
+      },
+      "rust": {
+        "after_clone": "cargo build",
+        "after_workon": "cargo test && rustup run nightly cargo clippy",
+        "priority": null,
+        "workspace": null
+      }
+    },
+    "github_token": "onhrefhprqrfovgrf"
+  }
+}
