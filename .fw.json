@@ -40,7 +40,8 @@
       "after_workon": null,
       "override_path": null,
       "tags": [
-        "git"
+        "git",
+        "vcode"
       ],
       "bare": null
     },
@@ -58,6 +59,17 @@
     "wasm-game-of-life": {
       "name": "wasm-game-of-life",
       "git": "git@github.com:franke1276/wasm-game-of-life.git",
+      "after_clone": null,
+      "after_workon": null,
+      "override_path": null,
+      "tags": [
+        "git"
+      ],
+      "bare": null
+    },
+    "zsh-git-prompt": {
+      "name": "zsh-git-prompt",
+      "git": "https://github.com/olivierverdier/zsh-git-prompt",
       "after_clone": null,
       "after_workon": null,
       "override_path": null,
@@ -94,6 +106,12 @@
       "rust": {
         "after_clone": "cargo build",
         "after_workon": "cargo test && rustup run nightly cargo clippy",
+        "priority": null,
+        "workspace": null
+      },
+      "vcode": {
+        "after_clone": null,
+        "after_workon": "/usr/local/bin/code-insiders .",
         "priority": null,
         "workspace": null
       }

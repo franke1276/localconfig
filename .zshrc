@@ -8,7 +8,7 @@ ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="robbyrussell"
 export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
 export SBT_OPTS="-XX:MaxPermSize=256m -Xmx1024m"
-
+export WORKSPACE=$HOME/workspace
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
@@ -50,6 +50,9 @@ export SBT_OPTS="-XX:MaxPermSize=256m -Xmx1024m"
 plugins=(git sbt osx brew sudo web-search tmux )
 
 source $ZSH/oh-my-zsh.sh
+source $WORKSPACE/zsh-git-prompt/zshrc.sh
+# an example prompt
+PROMPT='%B%m%~%b$(git_super_status) %# '
 
 # User configuration
 
