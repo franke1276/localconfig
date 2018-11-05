@@ -52,7 +52,8 @@ plugins=(git sbt osx brew sudo web-search tmux )
 source $ZSH/oh-my-zsh.sh
 source $WORKSPACE/zsh-git-prompt/zshrc.sh
 # an example prompt
-PROMPT='%B%m%~%b$(git_super_status) %# '
+PROMPT='%B%m%~%b$(git_super_status)
+%# '
 
 # User configuration
 
