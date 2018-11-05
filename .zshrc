@@ -47,12 +47,12 @@ export WORKSPACE=$HOME/workspace
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git sbt osx brew sudo web-search tmux )
+plugins=(git sbt osx brew sudo web-search tmux cargo docker)
 
 source $ZSH/oh-my-zsh.sh
 source $WORKSPACE/zsh-git-prompt/zshrc.sh
 # an example prompt
-PROMPT='%B%m%~%b$(git_super_status)
+PROMPT='%B%~%b%(?..[$fg[red]%?$reset_color] )$(git_super_status)
 %# '
 
 # User configuration
