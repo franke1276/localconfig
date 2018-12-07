@@ -1,8 +1,41 @@
 {
   "projects": {
+    "fblog": {
+      "name": "fblog",
+      "git": "git@github.com:franke1276/fblog.git",
+      "after_clone": null,
+      "after_workon": null,
+      "override_path": null,
+      "tags": [
+        "git"
+      ],
+      "bare": null
+    },
+    "fbpush": {
+      "name": "fbpush",
+      "git": "git@github.com:franke1276/fbpush.git",
+      "after_clone": null,
+      "after_workon": null,
+      "override_path": null,
+      "tags": [
+        "git"
+      ],
+      "bare": null
+    },
+    "fstlib-sys": {
+      "name": "fstlib-sys",
+      "git": "git@github.com:21re/fstlib-sys.git",
+      "after_clone": null,
+      "after_workon": null,
+      "override_path": null,
+      "tags": [
+        "git"
+      ],
+      "bare": null
+    },
     "fw": {
       "name": "fw",
-      "git": "git@github.com:brocode/fw.git",
+      "git": "https://github.com/franke1276/fw",
       "after_clone": null,
       "after_workon": null,
       "override_path": null,
@@ -42,6 +75,44 @@
       "tags": [
         "git",
         "vcode"
+      ],
+      "bare": null
+    },
+    "newp": {
+      "name": "newp",
+      "git": "git@github.com:franke1276/newp.git",
+      "after_clone": null,
+      "after_workon": null,
+      "override_path": "/Users/franke/workspace/newp",
+      "tags": null,
+      "bare": null
+    },
+    "result": {
+      "name": "result",
+      "git": "git@github.com:franke1276/result.git",
+      "after_clone": null,
+      "after_workon": null,
+      "override_path": "/Users/franke/workspace/result",
+      "tags": null,
+      "bare": null
+    },
+    "rust_test": {
+      "name": "rust_test",
+      "git": "git@github.com:franke1276/rust_test.git",
+      "after_clone": null,
+      "after_workon": null,
+      "override_path": "/Users/franke/workspace/rust_test",
+      "tags": null,
+      "bare": null
+    },
+    "traefik": {
+      "name": "traefik",
+      "git": "git@github.com:containous/traefik.git",
+      "after_clone": null,
+      "after_workon": null,
+      "override_path": null,
+      "tags": [
+        "git"
       ],
       "bare": null
     },
